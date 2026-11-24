@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: dc360f4c1d3d749cf916ec04f7ce1ea0
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 64
+  forceTextureCase: 3
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 0
+  fontNames:
+  - Noto Sans JP
+  fallbackFontReferences: []
+  customCharacters: " !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~\u25CF\u3067\u30A2\u30A4\u30AF\u30B3\u30B9\u30BF\u30C3\u30C8\u30CB\u30CF\u30DA\u30DF\u30E9\u30EA\u30F3\u30FC\u8DDD\u96E2\u97F3\uFF01"
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  subsetRecipes: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

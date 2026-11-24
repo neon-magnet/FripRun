@@ -1,0 +1,36 @@
+{
+  "spritecook_project": "836ec5b1-af0c-47aa-a4a1-27efdb8e81e5",
+  "model": "pixel-engine-image-v1",
+  "assets": [
+    {
+      "file": "Assets/Resources/Art/player_run.png",
+      "asset_id": "56e9c1f3-74a9-4629-af6c-534a03bd2c4d",
+      "sha12": "1e053558af4e",
+      "label": "player run 4 frames (128x32)"
+    },
+    {
+      "file": "Assets/Resources/Art/player_land.png",
+      "asset_id": "179af367-26a3-4899-9dcb-71169b5a13f5",
+      "sha12": "fd785d1b46ac",
+      "label": "player landing frame"
+    },
+    {
+      "file": "Assets/Resources/Art/tile_block.png",
+      "asset_id": "6fa706ae-1d53-4115-bb6a-a529a1949e0e",
+      "sha12": "8a3656c81cd8",
+      "label": "floor/ceiling block tile (greyscale, tinted by palette)"
+    },
+    {
+      "file": "Assets/Resources/Art/tile_spike.png",
+      "asset_id": "58d7de60-9797-453a-81d9-5d75b31cf74a",
+      "sha12": "c44ecd50d23b",
+      "label": "spike (up; ceiling spike is flipped)"
+    },
+    {
+      "file": "Assets/Resources/Art/coin.png",
+      "asset_id": "d6c99ff8-f20c-436e-9a0f-60328a41a992",
+      "sha12": "1216954ceecd",
+      "label": "coin"
+    }
+  ]
+}

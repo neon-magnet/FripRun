@@ -1,0 +1,26 @@
+{
+    "name": "FlipRun.Tests.EditMode",
+    "rootNamespace": "FlipRun.Tests",
+    "references": [
+        "FlipRun.Core",
+        "FlipRun.Game",
+        "FlipRun.Editor",
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,14 @@
+{
+    "name": "FlipRun.Game",
+    "rootNamespace": "FlipRun.Game",
+    "references": ["FlipRun.Core", "Unity.InputSystem", "UnityEngine.UI"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

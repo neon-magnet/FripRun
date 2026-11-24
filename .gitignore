@@ -1,0 +1,31 @@
+# Unity
+FlipRun/[Ll]ibrary/
+FlipRun/[Tt]emp/
+FlipRun/[Oo]bj/
+FlipRun/[Ll]ogs/
+FlipRun/[Uu]ser[Ss]ettings/
+FlipRun/[Bb]uild/
+FlipRun/[Bb]uilds/
+FlipRun/[Mm]emoryCaptures/
+FlipRun/[Rr]ecordings/
+FlipRun/*.csproj
+FlipRun/*.sln
+FlipRun/*.slnx
+FlipRun/*.unityproj
+FlipRun/*.pidb
+FlipRun/*.booproj
+FlipRun/*.svd
+FlipRun/*.pdb
+FlipRun/*.mdb
+FlipRun/*.opendb
+FlipRun/*.VC.db
+FlipRun/crashlytics-build.properties
+FlipRun/.vs/
+FlipRun/.consulo/
+FlipRun/build.log
+FlipRun/TestResults*.xml
+
+# Editors / OS
+.DS_Store
+.claude/settings.local.json
+__pycache__/
