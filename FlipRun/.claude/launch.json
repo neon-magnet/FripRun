@@ -4,7 +4,11 @@
     {
       "name": "fliprun-webgl",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "Builds/WebGL"],
+      "runtimeArgs": [
+        "Tools/serve_webgl.py",
+        "8765",
+        "Builds/WebGL"
+      ],
       "port": 8765
     }
   ]

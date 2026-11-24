@@ -30,13 +30,20 @@ public static class BuildScript
         if (Application.isBatchMode) EditorApplication.Exit(s.result == BuildResult.Succeeded ? 0 : 1);
     }
 
-    /// <summary>ブリーフ第9章の WebGL 設定。</summary>
+    /// <summary>
+    /// ブリーフ第9章の WebGL 設定。ただし Decompression Fallback だけは unityroom の指定（オフ）に合わせる：
+    /// unityroom ヘルプ「unityroomにアップロードするためのビルド方法」で
+    /// Development Build オフ / Gzip / Decompression Fallback オフ が求められている。
+    /// 起動を速くするため Unity のスプラッシュ画面も出さない（目標：起動からタイトルまで5秒以内）。
+    /// </summary>
     public static void ApplyWebGLSettings()
     {
+        EditorUserBuildSettings.development = false;
+        PlayerSettings.SplashScreen.show = false;
         PlayerSettings.defaultWebScreenWidth = 960;
         PlayerSettings.defaultWebScreenHeight = 540;
         PlayerSettings.WebGL.compressionFormat = WebGLCompressionFormat.Gzip;
-        PlayerSettings.WebGL.decompressionFallback = true;
+        PlayerSettings.WebGL.decompressionFallback = false;
         PlayerSettings.WebGL.exceptionSupport = WebGLExceptionSupport.ExplicitlyThrownExceptionsOnly;
         PlayerSettings.SetManagedStrippingLevel(NamedBuildTarget.WebGL, ManagedStrippingLevel.Medium);
         AssetDatabase.SaveAssets();
